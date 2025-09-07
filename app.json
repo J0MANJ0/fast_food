@@ -3,20 +3,25 @@
     "name": "fast-food-app",
     "slug": "fast-food-app",
     "version": "1.0.0",
+    "assets": [
+      "./assets/fonts"
+    ],
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "fastfoodapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.fastfoodapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.fastfoodapp"
     },
     "web": {
       "bundler": "metro",
